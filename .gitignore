@@ -1,0 +1,53 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+uploads/07d797b8-e0f7-4d67-a388-1ebe918ece87_6399a4d27711a5ad2c9bf5cd_ben-sweet-2LowviVHZ-E-unsplash-1.jpeg
+uploads/26ad859e-0596-45e5-bb3c-ec32b9f8c3d3_dsgs.jpg
+uploads/34f5ff5a-ed35-4382-bfe8-45630977a205_4114797-uhd_3840_2160_25fps.mp4
+uploads/069f6bff-8bfa-486f-a1e2-99b10f3049dd_WIN_20241001_16_33_32_Pro.jpg
+uploads/92e5310f-d396-4c7c-b6d2-c269003f7e7d_gdgd.jpeg
+uploads/95fd7f9c-b50b-4bc7-8edc-6baa180b176f_AR-236973-CreamyAlfredoSauce-0238-4x3-1-01e7091f47ae452d991abe32cbed5921.jpg
+uploads/200fddab-fbba-483c-8831-bbf6ab2f6dbf_WIN_20241004_17_22_24_Pro.jpg
+uploads/202076cb-7c48-49cd-b769-33287674a8fb_6399a4d27711a5ad2c9bf5cd_ben-sweet-2LowviVHZ-E-unsplash-1.jpeg
+uploads/5857139f-7664-4695-a09f-036671bbf334_6399a4d27711a5ad2c9bf5cd_ben-sweet-2LowviVHZ-E-unsplash-1.jpeg
+uploads/6610863d-fbd4-4e24-b11b-ed68fc6d1d60_stdge.webp
+uploads/aa3f77b0-d2d7-4566-b3bb-50b78b9d38cb_WIN_20241004_17_22_13_Pro.jpg
+uploads/aaf228ec-05cb-4dab-85e5-3996dd192fce_WIN_20241004_17_22_13_Pro.jpg
+uploads/b843f89c-dcc9-4ab7-956d-ee80462ccecf_WIN_20241004_17_22_24_Pro.jpg
+uploads/b40090c8-14a3-42fd-a75c-21d520a789cd_WIN_20241004_17_22_24_Pro.jpg
+uploads/bb980d0e-9ed8-4c09-aa61-5dc9e920f926_WIN_20241004_17_22_13_Pro.jpg
+uploads/cf917325-42c9-419c-a586-c30b7b260bc0_maxresdefault.jpg
+uploads/d4d3e150-1cb5-4781-adc0-b57215bde855_images.jpeg
+uploads/dc29ad4f-034d-4656-836b-5233465a6938_6399a4d27711a5ad2c9bf5cd_ben-sweet-2LowviVHZ-E-unsplash-1.jpeg
+uploads/dd6f9939-8dfe-4c08-b391-a7f410c9e1d8_WIN_20241004_17_22_24_Pro.jpg
+uploads/fd876a81-e89c-4460-a91f-c3df4d381156_sg.jpeg
