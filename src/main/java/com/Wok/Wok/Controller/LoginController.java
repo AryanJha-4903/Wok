@@ -69,23 +69,7 @@ public class LoginController {
         this.authenticationProvider = authenticationProvider;
     }
 
-    // @GetMapping("/home")
-    // public String test() {
-    //     return "Hello World";
-    // }
-    // // @GetMapping("/login")/
-    // @GetMapping("/user")
-    // public String check() {
-    //     return  "authentication success";
-    // }
-    
-    // @PostMapping("/signup")
-    // public user signup(@RequestBody user newUser) {
-    //     newUser.setPassword(passwordEncoder.encode(newUser.getPassword()));
-    //     return userRepository.save(newUser);
-        
-    // }
-
+   
     @PostMapping("/signup")
     public ResponseEntity<?> signup(@RequestBody user newUser) {
         // Check if username already exists
@@ -113,47 +97,7 @@ public class LoginController {
         
     }
 
-    // @GetMapping("/admin")
-    // public String admin() {
-    //     return "admin success";
-    // }
     
-    // @GetMapping("login")
-    // public String login() {
-    //     return "logged in successfully";
-    // }
-    
-    // @PostMapping("/authenticate")
-    // public AuthResponse authenticate(@RequestBody AuthRequest request) {
-
-    //     System.out.println("Username: " + request.getUsername());
-    //     System.out.println("Password: " + request.getPassword());
-    //     // Authenticate the user using the provided username and password
-    //     authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword()));
-    
-    //     // Retrieve user from the database
-    //     Optional<user> user = userRepository.findByUsername(request.getUsername());
-    
-    //     if (user.isPresent()) {
-    //         // Convert roles from List<String> to List<GrantedAuthority> (SimpleGrantedAuthority)
-    //         List<SimpleGrantedAuthority> authorities = user.get().getRoles().stream()
-    //                 .map(role -> new SimpleGrantedAuthority("ROLE_" + role)) // Adding "ROLE_" prefix as per Spring Security convention
-    //                 .collect(Collectors.toList());
-    
-    //         // Create UserDetails object from the retrieved user data
-    //         UserDetails userDetails = new User(
-    //                 user.get().getUsername(), 
-    //                 user.get().getPassword(), 
-    //                 authorities); // Pass the authorities here
-    
-    //         // Generate JWT token
-    //         String token = jwtService.generateToken(userDetails);
-    //         return new AuthResponse(token); // Return the generated token
-    //     }
-    //     // Throw an error if user is not found
-    //     throw new RuntimeException("Invalid username or password");
-    // }
-
 
 
 
